@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量与密钥
+.env
+*.env
+!.env.example
+
+# 日志与临时文件
+*.log
+logs/
+*.tmp
+
+# 本地数据 / 存储（开发期）
+data/
+storage/
+uploads/
+*.sqlite
+*.sqlite3
+
+# ===== Node / 前端 =====
+node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-error.log*
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
