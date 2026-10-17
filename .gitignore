@@ -43,3 +43,8 @@ yarn-error.log*
 # ===== 系统 =====
 .DS_Store
 Thumbs.db
+
+# ===== 个人文件 =====
+*.docx
+*.pdf
+resume_check_*.png
